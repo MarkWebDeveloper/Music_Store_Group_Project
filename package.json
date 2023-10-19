@@ -1,0 +1,24 @@
+{
+  "name": "music_store_group_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/sass:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkWebDeveloper/Music_Store_Group_Project.git"
+  },
+  "author": "Team 1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkWebDeveloper/Music_Store_Group_Project/issues"
+  },
+  "homepage": "https://github.com/MarkWebDeveloper/Music_Store_Group_Project#readme",
+  "devDependencies": {
+    "sass": "^1.69.4",
+    "scss-reset": "^1.4.2"
+  }
+}
