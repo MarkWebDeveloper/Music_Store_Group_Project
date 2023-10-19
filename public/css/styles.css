@@ -561,9 +561,10 @@ template {
   display: none;
 }
 
-h1 {
-  color: red;
-  font-size: 3em;
+#categories_section {
+  background-color: rgb(105, 105, 105);
+  height: 100%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
