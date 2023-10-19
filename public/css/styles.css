@@ -561,6 +561,10 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "RussoOne";
+  src: url(../../public/assets/fonts/RussoOne-Regular.ttf);
+}
 #categories_section {
   background-color: rgb(246, 242, 236);
   height: 100%;
@@ -569,7 +573,7 @@ template {
 
 #categories_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
@@ -595,6 +599,7 @@ template {
 .category_name {
   font-size: 2.5em;
   margin-top: 20px;
+  font-family: RussoOne;
 }
 
 /*# sourceMappingURL=styles.css.map */
