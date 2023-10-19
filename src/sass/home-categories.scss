@@ -10,8 +10,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding: 10% 15% 10% 15%;
 }
 
 .category_container {
@@ -23,14 +22,14 @@
 }
 
 .category_image {
-    width: 250px;
-    height: 250px;
+    width: 18vh;
+    height: 18vh;
     object-fit: cover;
     border-radius: 5%;
 }
 
 .category_name {
-    font-size: 2.5em;
+    font-size: 3vh;
     margin-top: 20px;
     font-family: RussoOne;
 }
