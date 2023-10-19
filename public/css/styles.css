@@ -562,7 +562,7 @@ template {
 }
 
 @font-face {
-  font-family: "RussoOne";
+  font-family: RussoOne;
   src: url(../../public/assets/fonts/RussoOne-Regular.ttf);
 }
 #categories_section {
