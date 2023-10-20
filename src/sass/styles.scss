@@ -1,2 +1,8 @@
 @use './../../node_modules/scss-reset/src/scss/_reset.scss';
 @use './main-styles.scss';
+
+.banner_container{
+    height: 100px;
+    width: 100%;
+
+}

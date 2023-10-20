@@ -566,4 +566,9 @@ h1 {
   font-size: 3em;
 }
 
+.banner_container {
+  height: 100px;
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
