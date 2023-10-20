@@ -601,4 +601,22 @@ template {
   font-family: RussoOne;
 }
 
+.footer_container {
+  height: 104px;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
+#copyright_text {
+  color: white;
+  font-size: large;
+}
+
 /*# sourceMappingURL=styles.css.map */
