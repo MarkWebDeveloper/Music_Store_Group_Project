@@ -6,11 +6,11 @@
 
 #categories_container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    padding: 10% 15% 10% 15%;
+    padding: 10%;
 }
 
 .category_container {
@@ -22,10 +22,16 @@
 }
 
 .category_image {
-    width: 18vh;
-    height: 18vh;
+    width: 25vh;
+    height: 25vh;
     object-fit: cover;
     border-radius: 5%;
+    transition: transform .2s;
+}
+
+.category_image:hover {
+    transform: scale(1.1);
+    filter: brightness(110%);
 }
 
 .category_name {
