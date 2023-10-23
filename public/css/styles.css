@@ -565,6 +565,10 @@ template {
   font-family: RussoOne;
   src: url(../../public/assets/fonts/RussoOne-Regular.ttf);
 }
+main {
+  background-color: rgb(246, 242, 236);
+}
+
 #categories_section {
   background-color: rgb(246, 242, 236);
   height: 100%;
@@ -609,6 +613,28 @@ template {
   font-size: 3vh;
   margin-top: 20px;
   font-family: RussoOne;
+}
+
+#form_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding-bottom: 50px;
+}
+#form_section form {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 30%;
+  border-radius: 10px;
+  border-collapse: separate;
+  border: 0.2vw solid black;
+}
+#form_section form h3 {
+  font-size: 2em;
+  margin: 2vh;
 }
 
 #gallery_main {

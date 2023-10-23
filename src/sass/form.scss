@@ -1,0 +1,23 @@
+#form_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 50px;
+
+    form {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        width: 30%;
+        border-radius: 10px;
+        border-collapse: separate;
+        border: 0.2vw solid black;
+
+        h3 {
+            font-size: 2em;
+            margin: 2vh;
+        }
+    }
+}

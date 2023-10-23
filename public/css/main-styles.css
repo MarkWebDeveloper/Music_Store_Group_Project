@@ -2,5 +2,8 @@
   font-family: RussoOne;
   src: url(../../public/assets/fonts/RussoOne-Regular.ttf);
 }
+main {
+  background-color: rgb(246, 242, 236);
+}
 
 /*# sourceMappingURL=main-styles.css.map */
