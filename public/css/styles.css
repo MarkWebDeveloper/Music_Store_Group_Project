@@ -572,7 +572,7 @@ main {
 
 #categories_section {
   background-color: rgb(246, 242, 236);
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -582,7 +582,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding: 10%;
+  padding: 5% 5% 3% 5%;
 }
 
 .category_container {
@@ -594,8 +594,8 @@ main {
 }
 
 .category_image {
-  width: 25vh;
-  height: 25vh;
+  width: 30vh;
+  height: 30vh;
   object-fit: cover;
   border-radius: 5%;
   transition: all 0.2s;
