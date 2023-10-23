@@ -1,21 +1,19 @@
-body {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+#gallery_main {
     background-color: rgba(246, 242, 236, 1);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-gallery {
     display: grid;
-    font: oblique bold 120% cursive;
+    font-family: RussoOne;
     text-align: center;
-
     grid-gap: 5rem;
+    row-gap: 2rem;
     padding-top: 2%;
     grid-template-rows: 80px 250px 100px 250px 100px 250px 100px;
-    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 250px 250px 250px 250px 250px;
     grid-template-areas:
     ". area0 area0 area0 ."
@@ -28,13 +26,12 @@ body {
 }
 
     .grid-item0 {
-        background-color: blue;
         font-size: 50px;
         grid-area: area0;
     }
     
     .grid-item1 {
-        background-image: url(/img-gallery-rock/Jethro-Tull-Thick-as-a-Brick-1-1.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/Jethro-Tull-Thick-as-a-Brick-1-1.jpg);
         background-size: 100% 100%;
         border-radius: 5%;
         grid-area: area1;
@@ -42,7 +39,6 @@ body {
 
     
     .grid-item01 {
-        background-color: blue;
         content: normal;
         margin-bottom: 10%;
         font-size: 20px;
@@ -50,7 +46,7 @@ body {
     }
     
     .grid-item2 {
-        background-image: url(/img-gallery-rock/Moby-Grape-Wow-438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/Moby-Grape-Wow-438x438.jpg);
         background-size: 100% 100%;
         font: oblique bold 120% cursive;
         font-size: 20px;
@@ -64,7 +60,7 @@ body {
     }
     
     .grid-item3 {
-        background-image: url(/img-gallery-rock/Rush-Moving-Pictures-Album-Cover-web-optimised-820-438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/Rush-Moving-Pictures-Album-Cover-web-optimised-820-438x438.jpg);
         background-size: 100% 100%;
         border-radius: 5%;
         grid-area: area3;
@@ -76,7 +72,7 @@ body {
     }
 
     .grid-item4 {
-        background-image: url(/img-gallery-rock/The-Beatles-Abbey-Road-Album-cover-web-optimised-820-438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/The-Beatles-Abbey-Road-Album-cover-web-optimised-820-438x438.jpg);
         background-size: 100% 100%;
         border-radius: 5%;
         grid-area: area4;
@@ -88,7 +84,7 @@ body {
     }
 
     .grid-item5 {
-        background-image: url(/img-gallery-rock/Big-Brother-And-the-Holding-Company-Cheap-Thrills--438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/Big-Brother-And-the-Holding-Company-Cheap-Thrills--438x438.jpg);
         background-size: 100% 100%; 
         border-radius: 5%;
         grid-area: area5;
@@ -100,7 +96,7 @@ body {
     }
 
     .grid-item6 {
-        background-image: url(/img-gallery-rock/The-Clash-London-Calling-438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/The-Clash-London-Calling-438x438.jpg);
         background-size: 100% 100%; 
         border-radius: 5%;
         grid-area: area6;
@@ -112,7 +108,7 @@ body {
     }
 
     .grid-item7 {
-        background-image: url(/img-gallery-rock/Pink-Floyd-Ummagumma-438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/Pink-Floyd-Ummagumma-438x438.jpg);
         background-size: 100% 100%; 
         border-radius: 5%;
         grid-area: area7;
@@ -124,7 +120,7 @@ body {
     }
 
     .grid-item8 {
-        background-image: url(/img-gallery-rock/Yes-Relayer-1.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/Yes-Relayer-1.jpg);
         background-size: 100% 100%; 
         border-radius: 5%;
         grid-area: area8;
@@ -136,7 +132,7 @@ body {
     }
 
     .grid-item9 {
-        background-image: url(/img-gallery-rock/Parliament-Mothership-Connection-album-438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/Parliament-Mothership-Connection-album-438x438.jpg);
         background-size: 100% 100%; 
         border-radius: 5%;
         grid-area: area9;
@@ -148,7 +144,7 @@ body {
     }
 
     .grid-item10 {
-        background-image: url(/img-gallery-rock/James-Brown-Hell-438x438.jpg);
+        background-image: url(./../../public/assets/images/GALLERY/James-Brown-Hell-438x438.jpg);
         background-size: 100% 100%; 
         border-radius: 5%;
         grid-area: area10;
@@ -159,7 +155,7 @@ body {
     }
 
     .grid-item11 {
-    background-image: url(/img-gallery-rock/Courtney-Love-Americas-Sweetheart-1.jpg);
+    background-image: url(./../../public/assets/images/GALLERY/Courtney-Love-Americas-Sweetheart-1.jpg);
     background-size: 100% 100%;
     border-radius: 5%;
     grid-area: area11;
@@ -171,7 +167,7 @@ body {
     }
 
     .grid-item12 {
-    background-image: url(/img-gallery-rock/Talking-Heads-Speaking-In-Tongues-438x438.jpg);
+    background-image: url(./../../public/assets/images/GALLERY/Talking-Heads-Speaking-In-Tongues-438x438.jpg);
     background-size: 100% 100%;
     border-radius: 5%;
     grid-area: area12;
@@ -183,7 +179,7 @@ body {
     }
 
     .grid-item13 {
-    background-image: url(/img-gallery-rock/Alice-Cooper-Schools-Out-438x438.jpg);
+    background-image: url(./../../public/assets/images/GALLERY/Alice-Cooper-Schools-Out-438x438.jpg);
     background-size: 100% 100%;
     border-radius: 5%;
     grid-area: area13;
@@ -195,7 +191,7 @@ body {
     }
 
     .grid-item14 {
-    background-image: url(/img-gallery-rock/Aerosmith-Draw-The-Line-1.jpg);
+    background-image: url(./../../public/assets/images/GALLERY/Aerosmith-Draw-The-Line-1.jpg);
     background-size: 100% 100%;
     border-radius: 5%; 
     border: black 2px solid;
@@ -208,7 +204,7 @@ body {
     }
 
     .grid-item15 {
-    background-image: url(/img-gallery-rock/Funkadelic-Maggot-Brain-438x438.jpg);
+    background-image: url(./../../public/assets/images/GALLERY/Funkadelic-Maggot-Brain-438x438.jpg);
     background-size: 100% 100%; 
     border-radius: 5%;
     grid-area: area15;
@@ -217,4 +213,8 @@ body {
     .grid-item015 {
         font-size: 20px;
         grid-area: area015;
+    }
+
+    .artist {
+        font-size: 28px;
     }
