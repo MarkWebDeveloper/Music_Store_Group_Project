@@ -10,7 +10,7 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    padding: 5% 5% 3% 5%;
+    padding: 5% 10% 3% 10%;
 }
 
 .category_container {
@@ -22,8 +22,8 @@
 }
 
 .category_image {
-    width: 30vh;
-    height: 30vh;
+    width: 25vh;
+    height: 25vh;
     object-fit: cover;
     border-radius: 5%;
     transition: all .2s;
