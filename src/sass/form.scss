@@ -19,7 +19,7 @@
         border: 0.2vw solid black;
 
         h3 {
-            font-size: 3vh;
+            font-size: 2.5vh;
             margin: 1.5vh 0 1.5vh 0;
             font-weight: bold;
         }
@@ -52,5 +52,11 @@
         border: 1px solid black;
         margin-left: 2%;
         padding: 6px 0 6px 0;
+    }
+
+    #submit_button:hover {
+        background-color: black;
+        transform: scale(1.1);
+        transition: all .2s;
     }
 }
