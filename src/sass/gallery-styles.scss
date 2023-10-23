@@ -1,0 +1,220 @@
+#gallery_main {
+    background-color: rgba(246, 242, 236, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-gallery {
+    display: grid;
+    font-family: RussoOne;
+    text-align: center;
+    grid-gap: 5rem;
+    row-gap: 2rem;
+    padding-top: 2%;
+    grid-template-rows: 80px 250px 100px 250px 100px 250px 100px;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-areas:
+    ". area0 area0 area0 ."
+    "area1 area2 area3 area4 area5"
+    "area01 area02 area03 area04 area05"
+    "area6 area7 area8 area9 area10"
+    "area06 area07 area08 area09 area010"
+    "area11 area12 area13 area14 area15"
+    "area011 area012 area013 area014 area015";
+}
+
+    .grid-item0 {
+        font-size: 50px;
+        grid-area: area0;
+    }
+    
+    .grid-item1 {
+        background-image: url(./../../public/assets/images/GALLERY/Jethro-Tull-Thick-as-a-Brick-1-1.jpg);
+        background-size: 100% 100%;
+        border-radius: 5%;
+        grid-area: area1;
+    }
+
+    
+    .grid-item01 {
+        content: normal;
+        margin-bottom: 10%;
+        font-size: 20px;
+        grid-area: area01;
+    }
+    
+    .grid-item2 {
+        background-image: url(./../../public/assets/images/GALLERY/Moby-Grape-Wow-438x438.jpg);
+        background-size: 100% 100%;
+        font: oblique bold 120% cursive;
+        font-size: 20px;
+        border-radius: 5%;
+        grid-area: area2;
+    }
+
+    .grid-item02 {
+        font-size: 20px;
+        grid-area: area02;
+    }
+    
+    .grid-item3 {
+        background-image: url(./../../public/assets/images/GALLERY/Rush-Moving-Pictures-Album-Cover-web-optimised-820-438x438.jpg);
+        background-size: 100% 100%;
+        border-radius: 5%;
+        grid-area: area3;
+    }
+
+    .grid-item03 {
+        font-size: 20px;
+        grid-area: area03;
+    }
+
+    .grid-item4 {
+        background-image: url(./../../public/assets/images/GALLERY/The-Beatles-Abbey-Road-Album-cover-web-optimised-820-438x438.jpg);
+        background-size: 100% 100%;
+        border-radius: 5%;
+        grid-area: area4;
+    }
+
+    .grid-item04 {
+        font-size: 20px;
+        grid-area: area04;
+    }
+
+    .grid-item5 {
+        background-image: url(./../../public/assets/images/GALLERY/Big-Brother-And-the-Holding-Company-Cheap-Thrills--438x438.jpg);
+        background-size: 100% 100%; 
+        border-radius: 5%;
+        grid-area: area5;
+    }
+
+    .grid-item05 {
+        font-size: 20px;
+        grid-area: area05;
+    }
+
+    .grid-item6 {
+        background-image: url(./../../public/assets/images/GALLERY/The-Clash-London-Calling-438x438.jpg);
+        background-size: 100% 100%; 
+        border-radius: 5%;
+        grid-area: area6;
+    }
+
+    .grid-item06 {
+        font-size: 20px;
+        grid-area: area06;
+    }
+
+    .grid-item7 {
+        background-image: url(./../../public/assets/images/GALLERY/Pink-Floyd-Ummagumma-438x438.jpg);
+        background-size: 100% 100%; 
+        border-radius: 5%;
+        grid-area: area7;
+    }
+
+    .grid-item07 {
+        font-size: 20px;
+        grid-area: area07;
+    }
+
+    .grid-item8 {
+        background-image: url(./../../public/assets/images/GALLERY/Yes-Relayer-1.jpg);
+        background-size: 100% 100%; 
+        border-radius: 5%;
+        grid-area: area8;
+    }
+
+    .grid-item08 {
+        font-size: 20px;
+        grid-area: area08;
+    }
+
+    .grid-item9 {
+        background-image: url(./../../public/assets/images/GALLERY/Parliament-Mothership-Connection-album-438x438.jpg);
+        background-size: 100% 100%; 
+        border-radius: 5%;
+        grid-area: area9;
+    }
+
+    .grid-item09 {
+        font-size: 20px;
+        grid-area: area09;
+    }
+
+    .grid-item10 {
+        background-image: url(./../../public/assets/images/GALLERY/James-Brown-Hell-438x438.jpg);
+        background-size: 100% 100%; 
+        border-radius: 5%;
+        grid-area: area10;
+    }
+    .grid-item010 {
+        font-size: 20px;
+        grid-area: area010;
+    }
+
+    .grid-item11 {
+    background-image: url(./../../public/assets/images/GALLERY/Courtney-Love-Americas-Sweetheart-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 5%;
+    grid-area: area11;
+    }
+
+    .grid-item011 {
+        font-size: 20px;
+        grid-area: area011;
+    }
+
+    .grid-item12 {
+    background-image: url(./../../public/assets/images/GALLERY/Talking-Heads-Speaking-In-Tongues-438x438.jpg);
+    background-size: 100% 100%;
+    border-radius: 5%;
+    grid-area: area12;
+    }
+
+    .grid-item012 {
+        font-size: 20px;
+        grid-area: area012;
+    }
+
+    .grid-item13 {
+    background-image: url(./../../public/assets/images/GALLERY/Alice-Cooper-Schools-Out-438x438.jpg);
+    background-size: 100% 100%;
+    border-radius: 5%;
+    grid-area: area13;
+    }
+
+    .grid-item013 {
+        font-size: 20px;
+        grid-area: area013;
+    }
+
+    .grid-item14 {
+    background-image: url(./../../public/assets/images/GALLERY/Aerosmith-Draw-The-Line-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 5%; 
+    border: black 2px solid;
+    grid-area: area14;
+    }
+
+    .grid-item014 {
+        font-size: 20px;
+        grid-area: area014;
+    }
+
+    .grid-item15 {
+    background-image: url(./../../public/assets/images/GALLERY/Funkadelic-Maggot-Brain-438x438.jpg);
+    background-size: 100% 100%; 
+    border-radius: 5%;
+    grid-area: area15;
+    }
+
+    .grid-item015 {
+        font-size: 20px;
+        grid-area: area015;
+    }
+
+    .artist {
+        font-size: 28px;
+    }
