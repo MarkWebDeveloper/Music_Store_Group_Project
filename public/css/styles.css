@@ -843,7 +843,7 @@ template {
 }
 
 #banner_container {
-  height: 210px;
+  height: 300px;
   width: 100%;
   background-color: beige;
   background-size: cover;
@@ -855,7 +855,7 @@ template {
 }
 
 .banner_image {
-  height: 185px;
+  height: 280px;
   width: 100%;
   align-content: top;
   background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
