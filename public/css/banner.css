@@ -1,10 +1,28 @@
-.banner_container {
-  height: 104px;
+#banner_container {
+  height: 210px;
   width: 100%;
-  background-image: "./../../public/assets/images/BANNER/bannerguit.png";
+  background-color: beige;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+.banner_image {
+  height: 185px;
+  width: 100%;
+  align-content: top;
+  background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
+  background-size: cover;
+}
+
+.button_banner {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
 }
 
 /*# sourceMappingURL=banner.css.map */
