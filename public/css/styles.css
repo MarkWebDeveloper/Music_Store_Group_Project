@@ -842,4 +842,13 @@ template {
   font-size: 1.5em;
 }
 
+.banner_container {
+  height: 104px;
+  width: 100%;
+  background-image: "./../../public/assets/images/BANNER/bannerguit.png";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,10 @@
+.banner_container {
+  height: 104px;
+  width: 100%;
+  background-image: "./../../public/assets/images/BANNER/bannerguit.png";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=banner.css.map */
