@@ -587,7 +587,7 @@ header {
 }
 
 #company_name {
-  font-size: 2rem;
+  font-size: 200%;
   color: black;
   font-weight: 100;
 }
@@ -596,10 +596,11 @@ header {
   position: absolute;
   right: 50px;
   transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 #menu_title {
-  font-size: 2em;
+  font-size: 200%;
 }
 
 #menu_button:hover {
@@ -673,6 +674,12 @@ header {
   background-color: beige;
   cursor: pointer;
   color: brown;
+}
+
+#category:hover {
+  background-color: white;
+  color: black;
+  cursor: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
