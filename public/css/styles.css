@@ -575,9 +575,11 @@ a {
 }
 
 header {
+  position: relative;
   background-color: white;
   height: 100px;
   font-family: RussoOne;
+  box-shadow: 2px 3px 5px gray;
 }
 
 #header_container {
@@ -600,10 +602,16 @@ header {
   margin-right: 20px;
 }
 
+.logo img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
 #company_name {
   font-size: 200%;
   color: black;
   font-weight: 100;
+  cursor: default;
 }
 
 #menu_button {
@@ -648,12 +656,12 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 2%;
+  align-items: flex-end;
+  padding: 8% 4% 8% 0%;
   height: 60%;
   border: solid;
-  box-shadow: 2px 5px gray;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  border-radius: 3%;
+  box-shadow: 2px 3px 5px gray;
 }
 
 .link {
@@ -662,7 +670,7 @@ header {
   font-size: 2.5vh;
   width: 100%;
   text-align: right;
-  padding-right: 8%;
+  transform-origin: center;
   line-height: 140%;
   margin-bottom: 2vh;
 }
@@ -670,27 +678,28 @@ header {
 .link_cat {
   color: black;
   font-size: 2.5vh;
-  width: 100%;
   text-align: right;
-  padding-right: 8%;
+  transform-origin: center;
 }
 
 .link:hover {
-  background-color: beige;
   cursor: pointer;
-  color: brown;
-}
-
-.link_cat:hover {
-  background-color: beige;
-  cursor: pointer;
-  color: brown;
+  transform: scale(1.1);
+  color: rgb(78, 78, 78);
+  transition: all 0.2s;
 }
 
 #category:hover {
-  background-color: white;
   color: black;
-  cursor: auto;
+  transform: none;
+  cursor: default;
+}
+
+.link_cat:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(78, 78, 78);
+  transition: all 0.2s;
 }
 
 #categories_section {
@@ -758,6 +767,7 @@ header {
   border-radius: 10px;
   border-collapse: separate;
   border: 0.2vw solid black;
+  box-shadow: 2px 3px 5px gray;
 }
 #form_section form h3 {
   font-size: 2.5vh;
