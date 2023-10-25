@@ -620,7 +620,7 @@ header {
   right: 0;
   visibility: hidden;
   height: 85vh;
-  width: 33vw;
+  width: 15vw;
   background-color: white;
   display: grid;
   place-items: top;
@@ -631,7 +631,7 @@ header {
 }
 
 .nav_link {
-  width: 33vw;
+  width: 15vw;
   height: 85vh;
   display: flex;
   flex-direction: column;
@@ -647,7 +647,7 @@ header {
 .link {
   color: black;
   font: bold;
-  font-size: 2rem;
+  font-size: 2.5vh;
   width: 100%;
   text-align: right;
   padding-right: 8%;
@@ -656,9 +656,7 @@ header {
 
 .link_cat {
   color: black;
-  font: bold;
-  font-family: "Courier New", monospace;
-  font-size: 2rem;
+  font-size: 2.5vh;
   width: 100%;
   text-align: right;
   padding-right: 8%;
