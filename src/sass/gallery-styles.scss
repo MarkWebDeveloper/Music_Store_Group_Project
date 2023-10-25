@@ -38,7 +38,7 @@
 
 .gallery_disc_img:hover {
     transform: scale(1.1);
-    filter: saturate(200%);
+    filter: opacity(80%);
     transition: all .2s;
 }
 
