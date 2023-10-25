@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3% 0% 6% 0%;
+  padding-top: 1%;
 }
 
 #grid-gallery {
@@ -33,7 +33,7 @@
 }
 
 #grid-item0 {
-  font-size: 4vw;
+  font-size: 3vw;
   grid-area: area0;
 }
 
