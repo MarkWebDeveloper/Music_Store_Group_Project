@@ -570,6 +570,129 @@ main {
   background-color: rgb(246, 242, 236);
 }
 
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+  height: 100px;
+  font-family: RussoOne;
+}
+
+#header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.logo img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+#company_name {
+  font-size: 200%;
+  color: black;
+  font-weight: 100;
+}
+
+#menu_button {
+  position: absolute;
+  right: 50px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+#menu_title {
+  font-size: 200%;
+}
+
+#menu_button:hover {
+  transform: scale(1.1);
+}
+
+.nav {
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.menu_desplegable {
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+  height: auto;
+  width: 15vw;
+  background-color: white;
+}
+
+.click {
+  visibility: visible;
+}
+
+.nav_link {
+  width: 15vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2%;
+  height: 60%;
+  border: solid;
+  box-shadow: 2px 5px gray;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.link {
+  color: black;
+  font: bold;
+  font-size: 2.5vh;
+  width: 100%;
+  text-align: right;
+  padding-right: 8%;
+  line-height: 140%;
+  margin-bottom: 2vh;
+}
+
+.link_cat {
+  color: black;
+  font-size: 2.5vh;
+  width: 100%;
+  text-align: right;
+  padding-right: 8%;
+}
+
+.link:hover {
+  background-color: beige;
+  cursor: pointer;
+  color: brown;
+}
+
+.link_cat:hover {
+  background-color: beige;
+  cursor: pointer;
+  color: brown;
+}
+
+#category:hover {
+  background-color: white;
+  color: black;
+  cursor: auto;
+}
+
 #categories_section {
   background-color: rgb(246, 242, 236);
   height: auto;

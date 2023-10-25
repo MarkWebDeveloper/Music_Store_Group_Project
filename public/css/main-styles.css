@@ -7,4 +7,8 @@ main {
   background-color: rgb(246, 242, 236);
 }
 
+a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main-styles.css.map */
