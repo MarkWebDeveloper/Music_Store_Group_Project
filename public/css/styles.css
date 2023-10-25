@@ -726,7 +726,7 @@ header {
 
 .category_image:hover {
   transform: scale(1.1);
-  filter: brightness(120%);
+  filter: opacity(85%);
 }
 
 #classic_category {
@@ -826,7 +826,7 @@ header {
 
 .gallery_disc_img:hover {
   transform: scale(1.1);
-  filter: opacity(80%);
+  filter: opacity(85%);
   transition: all 0.2s;
 }
 
