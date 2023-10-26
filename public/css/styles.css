@@ -843,7 +843,7 @@ template {
 }
 
 #banner_container {
-  height: 300px;
+  height: 270px;
   width: 100%;
   background-color: rgb(246, 242, 236);
   background-size: cover;
@@ -853,12 +853,22 @@ template {
   flex-wrap: wrap;
 }
 
-#banner_images {
-  height: 270px;
+.banner_images {
+  height: 230px;
   width: 100%;
   align-content: top;
   background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
   background-size: cover;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+
+.banner_image {
+  height: 230px;
+  width: 100%;
+  align-content: top;
+  float: left;
 }
 
 .button_container {
@@ -872,7 +882,6 @@ template {
   width: 15px;
   border-radius: 50%;
   background-color: rgb(0, 0, 0);
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
