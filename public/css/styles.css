@@ -1009,6 +1009,10 @@ header {
   font-size: 28px;
 }
 
+.heart_button {
+  background-color: pink;
+}
+
 .footer_container {
   height: 104px;
   width: 100%;
