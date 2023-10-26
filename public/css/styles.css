@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,700&display=swap");
 /**
  * Modern CSS Reset Tweaks
@@ -808,10 +809,9 @@ header {
 
 #gallery_main {
   background-color: rgb(246, 242, 236);
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  padding-top: 1%;
 }
 
 #grid-gallery {
@@ -1039,12 +1039,13 @@ header {
   height: 40vh;
 }
 
-#slogan-rock {
-  font-size: 2.5vw;
+.slogan-rock {
+  font-size: 4vw;
+  font-family: RussoOne;
   text-transform: uppercase;
   place-items: start;
-  padding-left: 10%;
-  padding-top: auto;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 /*ANIMACION TITLE*/
@@ -1102,11 +1103,12 @@ header {
 /* BUTTON */
 /* CSS */
 #button-banner {
+  font-family: RussoOne;
   background-color: #e4e0dc;
   border-color: #5f0c19;
   border-style: solid;
   border-width: 2px;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-bottom: 10%;
   padding-left: 5%;
   padding-right: 5%;
@@ -1123,6 +1125,42 @@ header {
 #button-banner:hover {
   box-shadow: rgba(222, 9, 9, 0.3) 2px 8px 8px -5px;
   transform: translate3d(0, 2px, 0);
+}
+
+/* Style the list */
+ul.breadcrumb {
+  display: inline-flex;
+  padding: 0.6%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  text-align: start;
+  font-family: RussoOne;
+  background-color: #cec6bb;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.3vw;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/ ";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #9b0f2d;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #4e050e;
+  box-shadow: rgba(222, 9, 9, 0.3) 2px 8px 8px -5px;
+  color: rgb(78, 78, 78);
 }
 
 /*# sourceMappingURL=styles.css.map */

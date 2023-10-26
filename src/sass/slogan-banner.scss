@@ -1,3 +1,4 @@
+
 #container-slogan-banner-rock {
     display: grid;
     background-image: url(./../../public/assets/images/BANNER/bannerguit.png);
@@ -5,13 +6,13 @@
     height: 40vh /*altura contenedor*/
 }
 
-#slogan-rock {
-    
-    font-size: 2.5vw;
+.slogan-rock {
+    font-size: 4vw;
+    font-family: RussoOne;
     text-transform: uppercase;
     place-items: start;
-    padding-left: 10%;
-    padding-top: auto;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 /*ANIMACION TITLE*/
@@ -58,11 +59,12 @@
 
   /* CSS */
 #button-banner {
+    font-family: RussoOne;
     background-color: #e4e0dc;
     border-color: #5f0c19;
     border-style: solid;
     border-width: 2px;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 10%;
     padding-left: 5%;
     padding-right: 5%;
