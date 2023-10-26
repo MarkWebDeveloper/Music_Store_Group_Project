@@ -1,0 +1,46 @@
+#banner_container {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(246, 242, 236);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#banner_images {
+  height: 270px;
+  width: 100%;
+  align-content: top;
+  background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
+  background-size: cover;
+}
+
+.button_container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.button_banner {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: solid 2px black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button_banner:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+
+.button_banner:active {
+  transform: scale(1.1);
+  background-color: black;
+  transform: translateY(4px);
+}
+
+/*# sourceMappingURL=banner.css.map */
