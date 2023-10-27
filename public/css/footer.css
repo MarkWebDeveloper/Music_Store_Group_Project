@@ -1,5 +1,5 @@
 .footer_container {
-  height: 104px;
+  height: 6vmax;
   width: 100%;
   background-color: rgb(30, 30, 30);
   display: flex;
@@ -13,7 +13,7 @@
 
 #copyright_text {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5vmax;
 }
 
 /*# sourceMappingURL=footer.css.map */

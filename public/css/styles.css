@@ -577,7 +577,8 @@ a {
 header {
   position: relative;
   background-color: white;
-  height: 100px;
+  height: 6vmax;
+  width: 100%;
   font-family: RussoOne;
   box-shadow: 2px 3px 5px gray;
 }
@@ -586,7 +587,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 6vmax;
   padding: 20px;
 }
 
@@ -598,8 +599,9 @@ header {
 }
 
 .logo img {
-  height: 80px;
-  margin-right: 20px;
+  height: 5vmax;
+  min-height: 5vmax;
+  margin-right: 1vw;
 }
 
 .logo img:hover {
@@ -608,7 +610,7 @@ header {
 }
 
 #company_name {
-  font-size: 200%;
+  font-size: 1.5vmax;
   color: black;
   font-weight: 100;
   cursor: default;
@@ -616,13 +618,13 @@ header {
 
 #menu_button {
   position: absolute;
-  right: 50px;
+  right: 2vmax;
   transition-duration: 0.2s;
   cursor: pointer;
 }
 
 #menu_title {
-  font-size: 200%;
+  font-size: 1.7vmax;
 }
 
 #menu_button:hover {
@@ -667,7 +669,7 @@ header {
 .link {
   color: black;
   font: bold;
-  font-size: 2.5vh;
+  font-size: 1.4vmax;
   width: 100%;
   text-align: right;
   transform-origin: center;
@@ -677,7 +679,7 @@ header {
 
 .link_cat {
   color: black;
-  font-size: 2.5vh;
+  font-size: 1.1vmax;
   text-align: right;
   transform-origin: center;
 }
@@ -704,8 +706,11 @@ header {
 
 #categories_section {
   background-color: rgb(246, 242, 236);
-  height: auto;
-  width: 100%;
+  height: 65%;
+  width: 100vw;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 #categories_container {
@@ -726,8 +731,8 @@ header {
 }
 
 .category_image {
-  width: 25vh;
-  height: 25vh;
+  width: 10vmax;
+  height: 10vmax;
   object-fit: cover;
   border-radius: 5%;
   transition: all 0.2s;
@@ -743,8 +748,8 @@ header {
 }
 
 .category_name {
-  font-size: 3vh;
-  margin-top: 20px;
+  font-size: 2vw;
+  margin-top: 8%;
   font-family: RussoOne;
 }
 
@@ -763,15 +768,16 @@ header {
   justify-content: center;
   align-items: center;
   background-color: white;
-  width: 50%;
-  border-radius: 10px;
+  width: 50vw;
+  height: 10vmax;
+  border-radius: 1vmax;
   border-collapse: separate;
-  border: 0.2vw solid black;
+  border: 0.2vmax solid black;
   box-shadow: 2px 3px 5px gray;
 }
 #form_section form h3 {
-  font-size: 2.5vh;
-  margin: 1.5vh 0 1.5vh 0;
+  font-size: 2.5vw;
+  margin: 1.3vmax 0 1.3vmax 0;
   font-weight: bold;
 }
 
@@ -780,25 +786,25 @@ header {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.5vmax;
 }
 #form_container label {
-  font-size: 2vh;
+  font-size: 1.7vw;
   margin-right: 1%;
 }
 #form_container #email_field {
-  font-size: 2vh;
+  font-size: 1.5vmax;
   width: 40%;
 }
 #form_container #submit_button {
   background-color: rgb(255, 50, 50);
   color: white;
-  width: 5vw;
-  font-size: 2vh;
+  width: 5vmax;
+  font-size: 1.2vmax;
   border-radius: 5px;
   border: 1px solid black;
   margin-left: 2%;
-  padding: 6px 0 6px 0;
+  padding: 0.3vh 0 0.3vh 0;
 }
 #form_container #submit_button:hover {
   background-color: black;
@@ -1015,7 +1021,7 @@ header {
 }
 
 .footer_container {
-  height: 104px;
+  height: 6vmax;
   width: 100%;
   background-color: rgb(30, 30, 30);
   display: flex;
@@ -1029,11 +1035,11 @@ header {
 
 #copyright_text {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5vmax;
 }
 
 #banner_container {
-  height: 300px;
+  height: 15vmax;
   width: 100%;
   background-color: rgb(246, 242, 236);
   background-size: cover;
@@ -1044,7 +1050,7 @@ header {
 }
 
 #banner_images {
-  height: 270px;
+  height: 13vmax;
   width: 100%;
   align-content: top;
   background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
@@ -1053,13 +1059,13 @@ header {
 
 .button_container {
   display: flex;
-  width: 200px;
+  width: 10vmax;
   justify-content: space-between;
 }
 
 .button_banner {
-  height: 15px;
-  width: 15px;
+  height: 0.8vmax;
+  width: 0.8vmax;
   border-radius: 50%;
   border: solid 2px black;
   background-color: transparent;

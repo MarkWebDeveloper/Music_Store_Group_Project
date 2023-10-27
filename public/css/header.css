@@ -1,7 +1,8 @@
 header {
   position: relative;
   background-color: white;
-  height: 100px;
+  height: 6vmax;
+  width: 100%;
   font-family: RussoOne;
   box-shadow: 2px 3px 5px gray;
 }
@@ -10,7 +11,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 6vmax;
   padding: 20px;
 }
 
@@ -22,8 +23,9 @@ header {
 }
 
 .logo img {
-  height: 80px;
-  margin-right: 20px;
+  height: 5vmax;
+  min-height: 5vmax;
+  margin-right: 1vw;
 }
 
 .logo img:hover {
@@ -32,7 +34,7 @@ header {
 }
 
 #company_name {
-  font-size: 200%;
+  font-size: 1.5vmax;
   color: black;
   font-weight: 100;
   cursor: default;
@@ -40,13 +42,13 @@ header {
 
 #menu_button {
   position: absolute;
-  right: 50px;
+  right: 2vmax;
   transition-duration: 0.2s;
   cursor: pointer;
 }
 
 #menu_title {
-  font-size: 200%;
+  font-size: 1.7vmax;
 }
 
 #menu_button:hover {
@@ -91,7 +93,7 @@ header {
 .link {
   color: black;
   font: bold;
-  font-size: 2.5vh;
+  font-size: 1.4vmax;
   width: 100%;
   text-align: right;
   transform-origin: center;
@@ -101,7 +103,7 @@ header {
 
 .link_cat {
   color: black;
-  font-size: 2.5vh;
+  font-size: 1.1vmax;
   text-align: right;
   transform-origin: center;
 }
