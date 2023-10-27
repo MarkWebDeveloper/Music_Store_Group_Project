@@ -730,11 +730,15 @@ header {
   height: 25vh;
   object-fit: cover;
   border-radius: 5%;
-  transition: all 0.2s;
+  transform: translateY(0px);
 }
 
 .category_image:hover {
-  transform: scale(1.1);
+  transition: all 0.2s;
+  animation-name: imageRotation;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2.5s;
   filter: opacity(85%);
 }
 
@@ -744,10 +748,27 @@ header {
 
 .category_name {
   font-size: 3vh;
-  margin-top: 20px;
+  margin-top: 5vh;
   font-family: RussoOne;
 }
 
+@keyframes imageRotation {
+  0% {
+    transform: rotateZ(0deg) scale(1);
+  }
+  33% {
+    transform: rotateZ(22.5deg) scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  66% {
+    transform: rotateZ(-22.5deg) scale(1.1);
+  }
+  100% {
+    transform: rotateZ(0deg) scale(1);
+  }
+}
 #form_section {
   display: flex;
   justify-content: center;
