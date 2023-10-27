@@ -10,10 +10,6 @@ formData.addEventListener("submit", (e) => {
         alert("Please, make sure to type in a valid email address before sending it!")
       } else {
         alert("This form has been successfully submitted!")
-        console.log(
-`The user's email is:  
-${email}`
-        )
         
         userEmails.push(email)
 
