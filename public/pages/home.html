@@ -10,7 +10,11 @@
     <header>
         <div id="header_container">
 
-            <img src="./../assets/images/ICONS/icons8-play-button-90.png" alt="play-button" id="play_button">
+            <button type="button" id="play_pause_button">
+                <img src="./../assets/images/ICONS/icons8-play-button-90.png" alt="play-image" id="play_image" class="play_pause_images">
+                <img src="./../assets/images/ICONS/icons8-pause-90.png" alt="pause-image" id="pause_image" class="play_pause_images"> 
+                <audio src="./../assets/music/06.-ACDC-Back-In-Black.mp3" id="audio"></audio>
+            </button>
 
             <div class="logo">
                 <a href="./home.html"><img src="/public/assets/images/LOGOS/DREAMS-ON-1.png" alt="logo"></a>
@@ -111,6 +115,7 @@
     </footer>
 
     <script src="./../js/home-app.js"></script>
+    <script src="./../js/play-button.js"></script>
 
 </body>
 </html>

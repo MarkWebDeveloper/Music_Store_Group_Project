@@ -590,9 +590,18 @@ header {
   padding: 20px;
 }
 
-#play_button {
+.play_pause_images {
   height: 4vmax;
   margin-left: 3%;
+}
+
+#pause_image {
+  display: none;
+}
+
+.play_pause_images:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
 }
 
 .logo {
