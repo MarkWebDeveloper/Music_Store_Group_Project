@@ -2,12 +2,12 @@
 /* Style the list */
 ul.breadcrumb {
   display: inline-flex;
-  padding: 0.6%;
+  padding: 2vh 0vh 2vh 0vh;
   padding-left: 1.5%;
   padding-right: 1.5%;
   text-align: start;
   font-family: RussoOne;
-  background-color: #cec6bb;
+  width: 100%;
 }
 
 /* Display list items side by side */

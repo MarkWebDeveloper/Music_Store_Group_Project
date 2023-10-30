@@ -854,7 +854,6 @@ header {
   text-align: center;
   grid-gap: 5vw;
   row-gap: 2vw;
-  padding-top: 2%;
   grid-template-rows: 5vw 13vw 7vw 13vw 7vw 13vw 7vw;
   grid-template-columns: 13vw 13vw 13vw 13vw 13vw;
   grid-template-areas: ". area0 area0 area0 ." "area1 area2 area3 area4 area5" "area01 area02 area03 area04 area05" "area6 area7 area8 area9 area10" "area06 area07 area08 area09 area010" "area11 area12 area13 area14 area15" "area011 area012 area013 area014 area015";
@@ -1114,12 +1113,12 @@ header {
 /* Style the list */
 ul.breadcrumb {
   display: inline-flex;
-  padding: 0.6%;
+  padding: 2vh 0vh 2vh 0vh;
   padding-left: 1.5%;
   padding-right: 1.5%;
   text-align: start;
   font-family: RussoOne;
-  background-color: #cec6bb;
+  width: 100%;
 }
 
 /* Display list items side by side */
