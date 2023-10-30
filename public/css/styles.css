@@ -584,10 +584,24 @@ header {
 
 #header_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100px;
   padding: 20px;
+}
+
+.play_pause_images {
+  height: 4vmax;
+  margin-left: 3%;
+}
+
+#pause_image {
+  display: none;
+}
+
+.play_pause_images:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
 }
 
 .logo {
@@ -615,8 +629,7 @@ header {
 }
 
 #menu_button {
-  position: absolute;
-  right: 50px;
+  margin-right: 2%;
   transition-duration: 0.2s;
   cursor: pointer;
 }
