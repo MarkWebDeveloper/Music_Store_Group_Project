@@ -1,9 +1,8 @@
 #gallery_main {
   background-color: rgb(246, 242, 236);
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  padding-top: 1%;
 }
 
 #grid-gallery {
