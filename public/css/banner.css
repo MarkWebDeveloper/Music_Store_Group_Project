@@ -18,6 +18,7 @@
 }
 
 #button_container {
+  margin-top: 2vh;
   display: flex;
   width: 200px;
   justify-content: space-between;
