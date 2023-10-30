@@ -1082,6 +1082,7 @@ header {
   align-content: top;
   background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
   background-size: cover;
+  box-shadow: 2px 3px 5px gray;
 }
 
 #button_container {
