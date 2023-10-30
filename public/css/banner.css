@@ -17,7 +17,7 @@
   background-size: cover;
 }
 
-.button_container {
+#button_container {
   display: flex;
   width: 200px;
   justify-content: space-between;
@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 
-.button_banner:hover {
+.button_banner:hover, .active {
   transform: scale(1.1);
   background-color: black;
 }
