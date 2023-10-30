@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.button_banner:hover, .active {
+.button_banner:hover, .activ {
   transform: scale(1.1);
   background-color: black;
 }
