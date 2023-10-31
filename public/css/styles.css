@@ -716,6 +716,87 @@ header {
   transition: all 0.2s;
 }
 
+#banner_container {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(246, 242, 236);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#banner_images {
+  height: 270px;
+  width: 100%;
+  align-content: top;
+  background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
+  background-size: cover;
+}
+
+.button_container {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.button_banner {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: solid 2px black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button_banner:hover {
+  transform: scale(1.1);
+  background-color: black;
+}
+
+.button_banner:active {
+  transform: scale(1.1);
+  background-color: black;
+  transform: translateY(4px);
+}
+
+/* Style the list */
+ul.breadcrumb {
+  display: inline-flex;
+  padding: 2vh 0vh 2vh 0vh;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  text-align: start;
+  font-family: RussoOne;
+  width: 100%;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.3vw;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/ ";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #9b0f2d;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #4e050e;
+  box-shadow: rgba(222, 9, 9, 0.3) 2px 8px 8px -5px;
+  color: rgb(78, 78, 78);
+}
+
 #categories_section {
   background-color: rgb(246, 242, 236);
   height: auto;
@@ -1047,6 +1128,139 @@ header {
   grid-area: area015;
 }
 
+#product_details_main {
+  height: 85vh;
+}
+
+#product_details_title {
+  text-align: center;
+  padding: 1.8rem;
+  padding-top: 5vh;
+}
+
+#product_container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 6.5vh;
+  padding-top: 3vh;
+}
+
+#product_details_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+}
+
+#product_img_and_fav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#product_img_and_fav img {
+  width: 20rem;
+  border-radius: 5%;
+}
+
+#price_and_cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.cart_img {
+  height: 2rem;
+}
+
+#add_cart_txt {
+  font-size: 1rem;
+  padding-top: 1vh;
+}
+
+#product_price {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#heart {
+  background-image: url("https://i.ibb.co/8sTbrLt/1-MTZW1-G1m-E7-LSX1-Cnh-TYe-HA.png");
+  cursor: pointer;
+  height: 85px;
+  width: 100px;
+}
+
+.heart-animation {
+  animation: heart-beat 0.4s steps(28) 1 forwards;
+}
+
+@keyframes heart-beat {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+#favorites_text {
+  text-align: center;
+  font-size: 1rem;
+}
+
+#full_cart {
+  display: none;
+}
+
+#product_text_div {
+  width: 27rem;
+  height: 26rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#product_desc_title {
+  text-align: center;
+  padding: 7%;
+}
+
+#product_text {
+  text-align: justify;
+  line-height: 27px;
+  margin: 6%;
+}
+
+#recommended_section {
+  display: block;
+  height: 25vh;
+  width: 100%;
+  background-color: white;
+}
+
+#recommended_title {
+  text-align: center;
+  padding: 1.8rem;
+}
+
+#gallery {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1vh 3vw;
+  grid-template-areas: "a b c d e";
+}
+
+#gallery img {
+  margin: 0% 10% 0% 10%;
+  width: 50%;
+  border: 1px solid black;
+}
+
 .footer_container {
   height: 104px;
   width: 100%;
@@ -1063,87 +1277,6 @@ header {
 #copyright_text {
   color: white;
   font-size: 1.5em;
-}
-
-#banner_container {
-  height: 300px;
-  width: 100%;
-  background-color: rgb(246, 242, 236);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-#banner_images {
-  height: 270px;
-  width: 100%;
-  align-content: top;
-  background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
-  background-size: cover;
-}
-
-.button_container {
-  display: flex;
-  width: 200px;
-  justify-content: space-between;
-}
-
-.button_banner {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  border: solid 2px black;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.button_banner:hover {
-  transform: scale(1.1);
-  background-color: black;
-}
-
-.button_banner:active {
-  transform: scale(1.1);
-  background-color: black;
-  transform: translateY(4px);
-}
-
-/* Style the list */
-ul.breadcrumb {
-  display: inline-flex;
-  padding: 2vh 0vh 2vh 0vh;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
-  text-align: start;
-  font-family: RussoOne;
-  width: 100%;
-}
-
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-  font-size: 1.3vw;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li + li:before {
-  padding: 8px;
-  color: black;
-  content: "/ ";
-}
-
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color: #9b0f2d;
-}
-
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
-  color: #4e050e;
-  box-shadow: rgba(222, 9, 9, 0.3) 2px 8px 8px -5px;
-  color: rgb(78, 78, 78);
 }
 
 /*# sourceMappingURL=styles.css.map */

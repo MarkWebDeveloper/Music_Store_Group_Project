@@ -1,9 +1,11 @@
 @use './../../node_modules/scss-reset/src/scss/_reset.scss';
 @use './main-styles.scss';
 @use "./header.scss";
+@use './banner.scss';
+@use './breadcrumb.scss';
 @use './home-categories.scss';
 @use './form.scss';
 @use './gallery-styles.scss';
+@use './product-details.scss';
+@use './recomendation.scss';
 @use './footer.scss';
-@use './banner.scss';
-@use './breadcrumb.scss';

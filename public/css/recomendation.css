@@ -1,0 +1,29 @@
+#recommended_section {
+  display: block;
+  height: 25vh;
+  width: 100%;
+  background-color: white;
+}
+
+#recommended_title {
+  text-align: center;
+  padding: 1.8rem;
+}
+
+#gallery {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 1vh 3vw;
+  grid-template-areas: "a b c d e";
+}
+
+#gallery img {
+  margin: 0% 10% 0% 10%;
+  width: 50%;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=recomendation.css.map */
