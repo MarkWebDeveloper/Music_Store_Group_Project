@@ -56,24 +56,26 @@
 
         <section class="container">
             <nav>
-                <i class="fa-solid fa-cart-shopping"><img src ="./../assets/images/ICONS/carrito-con-relleno.png">
+                <i class="shopping_cart_nav">
+                    <img src ="./../assets/images/ICONS/carrito-con-relleno.png">
                     <div class="buy-card">
                         <ul class="nav-card">
                             <li>Name</li>
                             <li>Price</li>
                             <li>Amount</li>
                         </ul>
-                         <button>Vaciar carrito</button>
+                         <button id="vaciar_carrito">Vaciar carrito</button>
                      </div>
                 </i>
             </nav>
             <div class="price">
                 <p>$49.99</p>
             </div>
-            <button id="cart"><img src="./../assets/images/ICONS/carrito-sin-relleno.png">
+            <button type="button" id="cart_button">
+                <img src="./../assets/images/ICONS/carrito-sin-relleno.png" alt="empty_cart" id="empty_cart">
+                <img src="./../assets/images/ICONS/carrito-con-relleno.png" alt="full_cart" id="full_cart">
                 <p id="add_cart_txt">Agregar al carrito</p>
-        </button>
-        
+            </button>
         </section>
     </main>
 
