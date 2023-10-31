@@ -36,7 +36,11 @@
 }
 
 .gallery_disc_img:hover {
+    animation-name: imageRotation;
     transform: scale(1.1);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2.5s;
     filter: opacity(85%);
     transition: all .2s;
 }

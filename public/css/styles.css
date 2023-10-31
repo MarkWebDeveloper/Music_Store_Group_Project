@@ -567,6 +567,23 @@ template {
   font-family: RussoOne;
   src: url(../../public/assets/fonts/RussoOne-Regular.ttf);
 }
+@keyframes imageRotation {
+  0% {
+    transform: rotateZ(0deg) scale(1);
+  }
+  33% {
+    transform: rotateZ(22.5deg) scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  66% {
+    transform: rotateZ(-22.5deg) scale(1.1);
+  }
+  100% {
+    transform: rotateZ(0deg) scale(1);
+  }
+}
 main {
   background-color: rgb(246, 242, 236);
 }
@@ -852,23 +869,6 @@ ul.breadcrumb li a:hover {
   font-family: RussoOne;
 }
 
-@keyframes imageRotation {
-  0% {
-    transform: rotateZ(0deg) scale(1);
-  }
-  33% {
-    transform: rotateZ(22.5deg) scale(1.1);
-  }
-  50% {
-    transform: scale(1);
-  }
-  66% {
-    transform: rotateZ(-22.5deg) scale(1.1);
-  }
-  100% {
-    transform: rotateZ(0deg) scale(1);
-  }
-}
 #form_section {
   display: flex;
   justify-content: center;
@@ -954,7 +954,11 @@ ul.breadcrumb li a:hover {
 }
 
 .gallery_disc_img:hover {
+  animation-name: imageRotation;
   transform: scale(1.1);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2.5s;
   filter: opacity(85%);
   transition: all 0.2s;
 }
