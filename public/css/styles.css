@@ -649,6 +649,18 @@ header {
   cursor: default;
 }
 
+#menu_and_cart_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}
+
+.header_cart {
+  width: 35px;
+}
+
 #menu_button {
   margin-right: 2%;
   transition-duration: 0.2s;
@@ -656,7 +668,7 @@ header {
 }
 
 #menu_title {
-  font-size: 200%;
+  font-size: 2rem;
 }
 
 #menu_button:hover {
