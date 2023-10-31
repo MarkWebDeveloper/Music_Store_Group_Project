@@ -24,21 +24,21 @@ button1.addEventListener ("click", function() {
   });
 
 button2.addEventListener ("click", function() {
-    bannerImage.style.backgroundImage = "url('./../assets/images/BANNER/ondas-sonoras-e1537192858988-800x400.jpg')"
+    bannerImage.style.backgroundImage = "url('./../assets/images/IMG_BANNER/jazz.jpg')"
   });
 
 button3.addEventListener ("click", function() {
-    bannerImage.style.backgroundImage = "url('./../assets/images/BANNER/banner2.jpeg')"
+    bannerImage.style.backgroundImage = "url('./../assets/images/IMG_BANNER/rock.jpg')"
   });
 
 button4.addEventListener ("click", function() {
-    bannerImage.style.backgroundImage = "url('./../assets/images/BANNER/banner3.jpeg')"
+    bannerImage.style.backgroundImage = "url('./../assets/images/IMG_BANNER/electro.jpg')"
   });
 
 button5.addEventListener ("click", function() {
-    bannerImage.style.backgroundImage = "url('./../assets/images/BANNER/paulette-wooten-FMiczIq8orU-unsplash.jpg')"
+    bannerImage.style.backgroundImage = "url('./../assets/images/IMG_BANNER/hip-hop.jpg')"
   });
 
 button6.addEventListener ("click", function() {
-    bannerImage.style.backgroundImage = "url('./../assets/images/BANNER/bannerguit.png')"
+    bannerImage.style.backgroundImage = "url('./../assets/images/IMG_BANNER/clasica.jpg')"
   });
