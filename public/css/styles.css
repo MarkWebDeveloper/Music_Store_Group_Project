@@ -1030,7 +1030,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 23vw;
+  width: 500px;
+}
+
+#product_img_and_fav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #product_img_and_fav img {
@@ -1047,24 +1054,24 @@ header {
 }
 
 .cart_img {
-  height: 2vmax;
+  height: 2rem;
 }
 
 #add_cart_txt {
-  font-size: 0.7vmax;
+  font-size: 1rem;
   padding-top: 1vh;
 }
 
 #product_price {
-  font-size: 1vmax;
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-.heart {
+#heart {
   background-image: url("https://i.ibb.co/8sTbrLt/1-MTZW1-G1m-E7-LSX1-Cnh-TYe-HA.png");
   cursor: pointer;
   height: 85px;
   width: 100px;
-  margin-left: 35%;
 }
 
 .heart-animation {
