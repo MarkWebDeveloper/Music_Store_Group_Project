@@ -629,6 +629,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: center;
   width: 50%;
 }
 
@@ -659,6 +660,10 @@ header {
 
 .header_cart {
   width: 35px;
+}
+
+#header_full_cart {
+  display: none;
 }
 
 #menu_button {
