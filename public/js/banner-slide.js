@@ -1,9 +1,9 @@
-const banner_images = document.querySelector('.banner_images');
-const button_container = document.querySelectorAll('.button_container button');
+const bannerImages = document.querySelector('.banner_images');
+const buttons = document.querySelectorAll('.button_banner button');
 
-button_container.forEach((button, index) => {
+buttons.forEach((button, index) => {
     button.addEventListener('click', () => {
-        const slideWidth = document.querySelector('.slide').offsetWidth;
-        banner_images.style.transform = `translateX(-${index * slideWidth}px)`;
+        const slideWidth = document.querySelector('.banner_image').offsetWidth;
+        bannerImages.style.transform = `translateX(-${index * slideWidth}px)`;
     });
 });
