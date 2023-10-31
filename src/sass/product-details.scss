@@ -15,9 +15,37 @@
     padding-top: 3vh;
 }
 
-#product_img img{
+#product_details_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23vw;
+}
+
+#product_img_and_fav img{
     width: 20rem;
     border-radius: 5%;  
+}
+
+#price_and_cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.cart_img {
+    height: 2vmax;
+}
+
+#add_cart_txt {
+    font-size: 0.7vmax;
+    padding-top: 1vh;
+}
+
+#product_price {
+    font-size: 1vmax;
 }
 
 .heart{
@@ -40,6 +68,10 @@
 #favorites_text {
     text-align: center;
     font-size: 1rem;
+}
+
+#full_cart {
+    display: none;
 }
 
 #product_text_div{
