@@ -1,0 +1,67 @@
+#product_details_main {
+  height: 85vh;
+}
+
+#product_details_title {
+  text-align: center;
+  padding: 1.8rem;
+  padding-top: 5vh;
+}
+
+#product_container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 6.5vh;
+  padding-top: 3vh;
+}
+
+#product_img img {
+  width: 20rem;
+  border-radius: 5%;
+}
+
+.heart {
+  background-image: url("https://i.ibb.co/8sTbrLt/1-MTZW1-G1m-E7-LSX1-Cnh-TYe-HA.png");
+  cursor: pointer;
+  height: 85px;
+  width: 100px;
+  margin-left: 35%;
+}
+
+.heart-animation {
+  animation: heart-beat 0.4s steps(28) 1 forwards;
+}
+
+@keyframes heart-beat {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+#favorites_text {
+  text-align: center;
+  font-size: 1rem;
+}
+
+#product_text_div {
+  width: 27rem;
+  height: 26rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#product_desc_title {
+  text-align: center;
+  padding: 7%;
+}
+
+#product_text {
+  text-align: justify;
+  line-height: 27px;
+  margin: 6%;
+}
+
+/*# sourceMappingURL=product-details.css.map */

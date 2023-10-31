@@ -42,8 +42,8 @@
     </header>
 
 
-    <main>
-        <h1 id="text_title">Product Details</h1>
+    <main id="product_details_main">
+        <h1 id="product_details_title">Product Details</h1>
 
         <div id="product_container">
 
@@ -52,14 +52,14 @@
 
                 <div class="heart">
                 </div>
-               <h3>Add to Favorites</h3>
+               <h3 id="favorites_text">Add to Favorites</h3>
                 
             </div>
 
 
-            <div id="product_text">
-                <h2>Description</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur    adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            <div id="product_text_div">
+                <h2 id="product_desc_title">Description</h2>
+                <p id="product_text"> Lorem ipsum dolor sit amet, consectetur    adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat at cupidatat non proident, sunt in culpa qui officia deserunt mollit
                     anim id est laborum Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -68,25 +68,24 @@
             </div>
         </div>
 
-        <script src="./../js/detail_app.js"></script>
+        <section id="recommended_section">
+            <div id="spacio">
+                <h1 id="recommended_title">Recommended for you</h1>
+                <div id="gallery">
+                    <img class="photo1" src="./../assets/images/GALLERY/James-Brown-Hell-438x438.jpg" alt="">
+                    <img class="photo2" src="./../assets/images/GALLERY/Moby-Grape-Wow-438x438.jpg" alt="">
+                    <img class="photo3"
+                        src="./../assets/images/GALLERY/Rush-Moving-Pictures-Album-Cover-web-optimised-820-438x438.jpg"
+                        alt="">
+                    <img class="photo4"
+                        src="./../assets/images/GALLERY/The-Beatles-Abbey-Road-Album-cover-web-optimised-820-438x438.jpg"
+                        alt="">
+                    <img class="photo5" src="./../assets/images/GALLERY/The-Clash-London-Calling-438x438.jpg" alt="">
+                </div>
+            </div>
+        </section>
     </main>
 
-    <article>
-        <div id="spacio">
-            <h1>Recommended for you</h1>
-            <div id="gallery">
-                <img class="photo1" src="./../assets/images/GALLERY/James-Brown-Hell-438x438.jpg" alt="">
-                <img class="photo2" src="./../assets/images/GALLERY/Moby-Grape-Wow-438x438.jpg" alt="">
-                <img class="photo3"
-                    src="./../assets/images/GALLERY/Rush-Moving-Pictures-Album-Cover-web-optimised-820-438x438.jpg"
-                    alt="">
-                <img class="photo4"
-                    src="./../assets/images/GALLERY/The-Beatles-Abbey-Road-Album-cover-web-optimised-820-438x438.jpg"
-                    alt="">
-                <img class="photo5" src="./../assets/images/GALLERY/The-Clash-London-Calling-438x438.jpg" alt="">
-            </div>
-        </div>
-    </article>
     <footer>
         <div class="footer_container">
             <div class="copyright">
@@ -94,6 +93,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./../js/detail_app.js"></script>
 
 </body>
 

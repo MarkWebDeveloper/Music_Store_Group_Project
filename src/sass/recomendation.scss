@@ -1,72 +1,28 @@
+#recommended_section{
+    display: block;
+    height: 25vh;
+    width: 100%;
+    background-color: white;
+}
 
-h1{
+#recommended_title {
     text-align: center;
     padding: 1.8rem;
 }
 
-#product_container{
-    display: flex;
-    justify-content: space-around;   
-}
-
-#product_img img{
-    width: 20rem;
-    border-radius: 5%;  
-}
-
-.heart{
-    background-image: url('https://i.ibb.co/8sTbrLt/1-MTZW1-G1m-E7-LSX1-Cnh-TYe-HA.png');
-    cursor: pointer;
-    height: 85px;
-    width: 100px;
-    margin-left: 35%;   
-}
-  
-.heart-animation{
-    animation: heart-beat .4s steps(28) 1 forwards;  
-}
-  
-@keyframes heart-beat{
-   from { background-position: left; }
-   to { background-position: right; }
-}
-h3{
-    text-align: center;
-    height: 4rem;
-}
-#product_text{
-    width: 27rem;
-    height: 26rem;
-    border: 2px solid black;
-    background-color: white;
-}
-
-h2{
-    text-align: center;
-    padding: 7%;
-}
-
-p{
-    text-align: justify;
-    line-height: 27px;
-    margin: 6% ;
-}
-
-article{
-    margin-bottom: 15%;
-}
-
 #gallery{
+    width: 100%;
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1px);
-    gap: 1rem 4rem;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1vh 3vw;
     grid-template-areas:
     "a b c d e";
 }
 
 #gallery img{
-    margin: 15%;
-    width: 70%; 
+    margin: 0% 10% 0% 10%;
+    width: 50%; 
     border: 1px solid black; 
 }
