@@ -1,0 +1,14 @@
+.miniatures {
+  display: inline;
+  background-color: aqua;
+}
+
+.imag {
+  height: 100px;
+  width: 100px;
+  border: double;
+  margin-right: 10px;
+  align-items: center;
+}
+
+/*# sourceMappingURL=miniatures.css.map */
