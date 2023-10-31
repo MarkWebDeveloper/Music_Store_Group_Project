@@ -1134,20 +1134,21 @@ ul.breadcrumb li a:hover {
 }
 
 #product_details_main {
-  height: 85vh;
+  height: auto;
+  font-family: RussoOne;
 }
 
 #product_details_title {
   text-align: center;
-  padding: 1.8rem;
-  padding-top: 5vh;
+  margin-top: 1.8rem;
+  font-size: 2rem;
+  margin-bottom: 50px;
 }
 
 #product_container {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 6.5vh;
-  padding-top: 3vh;
+  margin-bottom: 100px;
 }
 
 #product_details_left {
@@ -1225,11 +1226,13 @@ ul.breadcrumb li a:hover {
   border: 2px solid black;
   border-radius: 5px;
   background-color: white;
+  font-family: "Noto Sans", sans-serif;
 }
 
 #product_desc_title {
   text-align: center;
   padding: 7%;
+  font-weight: bold;
 }
 
 #product_text {
@@ -1240,14 +1243,16 @@ ul.breadcrumb li a:hover {
 
 #recommended_section {
   display: block;
-  height: 25vh;
   width: 100%;
   background-color: white;
+  padding-bottom: 50px;
 }
 
 #recommended_title {
   text-align: center;
-  padding: 1.8rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
 }
 
 #gallery {
@@ -1256,7 +1261,6 @@ ul.breadcrumb li a:hover {
   justify-items: center;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 1vh 3vw;
   grid-template-areas: "a b c d e";
 }
 
@@ -1264,6 +1268,7 @@ ul.breadcrumb li a:hover {
   margin: 0% 10% 0% 10%;
   width: 50%;
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 .footer_container {

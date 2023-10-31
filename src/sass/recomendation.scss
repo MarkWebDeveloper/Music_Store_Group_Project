@@ -1,13 +1,15 @@
 #recommended_section{
     display: block;
-    height: 25vh;
     width: 100%;
     background-color: white;
+    padding-bottom: 50px;
 }
 
 #recommended_title {
     text-align: center;
-    padding: 1.8rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.4rem;
 }
 
 #gallery{
@@ -16,7 +18,7 @@
     justify-items: center;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 1vh 3vw;
+    // gap: 1vh 3vw;
     grid-template-areas:
     "a b c d e";
 }
@@ -25,4 +27,5 @@
     margin: 0% 10% 0% 10%;
     width: 50%; 
     border: 1px solid black; 
+    border-radius: 5px;
 }
