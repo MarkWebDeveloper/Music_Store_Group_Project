@@ -1111,4 +1111,16 @@ header {
   transform: translateY(4px);
 }
 
+.miniatures {
+  display: inline;
+}
+
+.mini_img {
+  height: 100px;
+  width: 100px;
+  border: double;
+  margin-right: 10px;
+  align-items: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
