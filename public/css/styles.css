@@ -733,9 +733,11 @@ header {
   align-content: top;
   background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
   background-size: cover;
+  box-shadow: 2px 3px 5px gray;
 }
 
-.button_container {
+#button_container {
+  margin-top: 2vh;
   display: flex;
   width: 200px;
   justify-content: space-between;
@@ -750,7 +752,7 @@ header {
   cursor: pointer;
 }
 
-.button_banner:hover {
+.button_banner:hover, .activ {
   transform: scale(1.1);
   background-color: black;
 }
