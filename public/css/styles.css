@@ -1293,6 +1293,15 @@ ul.breadcrumb li a:hover {
   font-size: 1.5em;
 }
 
+.slogan-rock {
+  font-size: 4vw;
+  font-family: RussoOne;
+  text-transform: uppercase;
+  place-items: start;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
 .title-slogan-rock {
   animation: color-animation 4s linear infinite;
 }
