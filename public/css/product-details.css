@@ -23,6 +23,11 @@
   width: 500px;
 }
 
+#product_img_container {
+  height: 320px;
+  width: 320px;
+}
+
 #product_img_and_fav {
   display: flex;
   flex-direction: column;
