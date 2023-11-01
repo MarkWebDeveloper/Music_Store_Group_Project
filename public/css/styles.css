@@ -737,7 +737,7 @@ header {
 }
 
 #banner_container {
-  height: 300px;
+  height: auto;
   width: 100%;
   background-color: rgb(246, 242, 236);
   background-size: cover;
@@ -748,7 +748,7 @@ header {
 }
 
 #banner_images {
-  height: 270px;
+  height: auto;
   width: 100%;
   align-content: top;
   background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
@@ -1293,7 +1293,7 @@ ul.breadcrumb li a:hover {
   font-size: 1.5em;
 }
 
-.slogan-rock {
+.slogan {
   font-size: 3vw;
   font-family: RussoOne;
   text-transform: uppercase;
@@ -1302,7 +1302,7 @@ ul.breadcrumb li a:hover {
   padding-top: 5%;
 }
 
-.title-slogan-rock {
+.title-slogan {
   animation: color-animation 4s linear infinite;
 }
 
@@ -1357,8 +1357,12 @@ ul.breadcrumb li a:hover {
 /* CSS */
 #button-banner {
   font-family: RussoOne;
+  display: flex;
+  position: relative;
+  height: auto;
+  width: auto;
   background-color: #e4e0dc;
-  border-color: #640869;
+  border-color: #c81fd1;
   border-style: solid;
   border-width: 2px;
   margin-left: 5%;
