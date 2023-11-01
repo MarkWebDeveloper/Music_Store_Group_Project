@@ -26,6 +26,8 @@
 #product_img_container {
   height: 320px;
   width: 320px;
+  display: flex;
+  align-items: center;
 }
 
 #product_img_and_fav {
@@ -36,6 +38,12 @@
   justify-items: center;
 }
 
+.mini_img:hover {
+  filter: opacity(80%);
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
 #product_img_and_fav img {
   width: 20rem;
   border-radius: 5%;
@@ -44,9 +52,10 @@
 #price_and_cart {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 50%;
+  margin-bottom: 20%;
 }
 
 .cart_img {
