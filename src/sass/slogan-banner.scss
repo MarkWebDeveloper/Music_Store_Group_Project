@@ -1,5 +1,5 @@
 .slogan-rock {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: RussoOne;
     text-transform: uppercase;
     place-items: start;
@@ -12,27 +12,27 @@
 }
 
 .title-slogan-1 {
-    --color-1: #cf213e;
-    --color-2: #670b1c;
-    --color-3: #c81a34;
+    --color-1: #db15db;
+    --color-2: #e70ee7;
+    --color-3: #c540be;
 }
 
 .title-slogan-2 {
-    --color-1: #ae1f24;
-    --color-2: #f10a34;
-    --color-3: #d02f55;
+    --color-1: #d120b4;
+    --color-2: #a70899;
+    --color-3: #990894;
 }
 
 .title-slogan-3 {
-    --color-1: #c71221;
-    --color-2: #a6152600;
-    --color-3: #6c0524ed;
+    --color-1: #f60cf2;
+    --color-2: #cc2fda;
+    --color-3: #b30ebfed;
 }
 
 .title-slogan-4 {
-    --color-1: #5f0c19;
-    --color-2: #930a27;
-    --color-3: #a00711;
+    --color-1: #cb4eeb;
+    --color-2: #c21be7;
+    --color-3: #c91be0;
 }
 
 @keyframes color-animation {
@@ -51,7 +51,7 @@
 #button-banner {
     font-family: RussoOne;
     background-color: #e4e0dc;
-    border-color: #5f0c19;
+    border-color: #640869;
     border-style: solid;
     border-width: 2px;
     margin-left: 5%;
@@ -70,6 +70,6 @@
 }
 
 #button-banner:hover {
-    box-shadow: rgba(222, 9, 9, 0.3) 2px 8px 8px -5px;
+    box-shadow: rgba(210, 4, 189, 0.774) 2px 8px 8px -5px;
     transform: translate3d(0, 2px, 0);
 }
