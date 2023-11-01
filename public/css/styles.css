@@ -1293,7 +1293,7 @@ ul.breadcrumb li a:hover {
   font-size: 1.5em;
 }
 
-.slogan {
+#slogan {
   font-size: 3vw;
   font-family: RussoOne;
   text-transform: uppercase;
@@ -1373,10 +1373,7 @@ ul.breadcrumb li a:hover {
   line-height: 23px;
   cursor: pointer;
   transition: all 235ms ease-in-out;
-  border-bottom-left-radius: 15px 255px;
-  border-bottom-right-radius: 225px 15px;
-  border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
+  border-radius: 3px;
 }
 
 #button-banner:hover {
