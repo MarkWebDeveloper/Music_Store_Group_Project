@@ -1,5 +1,5 @@
 #banner_container{
-    height: 300px;
+    height: auto;
     width: 100%;
     background-color: rgb(246, 242, 236);
     background-size: cover;
@@ -9,8 +9,9 @@
     flex-wrap: wrap;
 }
 
+
 #banner_images{
-    height: 270px;
+    height: auto;
     width: 100%;
     align-content: top;
     background-image: url("./../../public/assets/images/BANNER/GUITBAN1.jpg");
