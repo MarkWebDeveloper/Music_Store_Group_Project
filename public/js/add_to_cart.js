@@ -11,15 +11,15 @@ function changeCartOnClick() {
     button.addEventListener("click", (event) => {
         event.preventDefault();
 
-        if (empty_cart) {
-            emptyCartImg.src.display = 'block'
-            fullCartImg.src.display = 'none'
+        if (emptyCartImg.style.display == 'block') {
+            emptyCartImg.style.display = 'none'
+            fullCartImg.style.display = 'block'
         } else {
-            emptyCartImg.src.display = 'none'
-            fullCartImg.src.display = 'block'
+            emptyCartImg.style.display = 'block'
+            fullCartImg.style.display = 'none'
         }
 
     })
 }
-cartButton()
 
+cartButton()

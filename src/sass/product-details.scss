@@ -58,6 +58,13 @@
     margin-bottom: 20px;
 }
 
+#cart_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #full_cart {
     display: none;
 }
