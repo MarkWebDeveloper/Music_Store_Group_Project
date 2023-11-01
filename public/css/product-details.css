@@ -57,12 +57,24 @@
   margin-bottom: 20px;
 }
 
+#cart_button_span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #full_cart {
   display: none;
 }
 
 .cart_img:hover {
   transform: scale(1.1);
+  transition: all 0.2s;
+}
+
+.cart_img:active {
+  transform: scale(1.3);
   transition: all 0.2s;
 }
 

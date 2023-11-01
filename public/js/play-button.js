@@ -6,7 +6,7 @@ function playButton(){
 let button = document.getElementById('play_pause_button')
 let playButtonImg = document.getElementById('play_image')
 let pauseButtonImg = document.getElementById('pause_image')
-let audio = document.getElemegit ntById('audio')
+let audio = document.getElementById('audio')
 
 function changeLogoOnClick() {
     

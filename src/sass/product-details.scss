@@ -58,7 +58,7 @@
     margin-bottom: 20px;
 }
 
-#cart_button {
+#cart_button_span {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +71,11 @@
 
 .cart_img:hover {
     transform: scale(1.1);
+    transition: all .2s;
+}
+
+.cart_img:active {
+    transform: scale(1.3);
     transition: all .2s;
 }
 
