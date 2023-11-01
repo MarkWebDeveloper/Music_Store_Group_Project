@@ -658,12 +658,15 @@ header {
   width: 180px;
 }
 
-.header_cart {
-  width: 35px;
+#header_cart_button {
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#header_full_cart {
-  display: none;
+.header_cart {
+  width: 35px;
 }
 
 #menu_button {
