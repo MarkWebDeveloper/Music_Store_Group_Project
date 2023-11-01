@@ -1434,6 +1434,15 @@ ul.breadcrumb li a:hover {
   border-radius: 5px;
 }
 
+#gallery img:hover {
+  animation-name: imageRotation;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2.5s;
+  filter: opacity(80%);
+  transition: all 0.2s;
+}
+
 .footer_container {
   height: 104px;
   width: 100%;

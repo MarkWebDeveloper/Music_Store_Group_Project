@@ -29,3 +29,12 @@
     border: 1px solid black; 
     border-radius: 5px;
 }
+
+#gallery img:hover {
+    animation-name: imageRotation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2.5s;
+    filter: opacity(80%);
+    transition: all .2s;
+}
