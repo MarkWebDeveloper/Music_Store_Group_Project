@@ -14,9 +14,12 @@ header {
   padding: 20px;
 }
 
+#play_pause_button {
+  margin-left: 2%;
+}
+
 .play_pause_images {
-  height: 4vmax;
-  margin-left: 3%;
+  height: 50px;
 }
 
 #pause_image {
@@ -122,7 +125,7 @@ header {
 .link:hover {
   cursor: pointer;
   transform: scale(1.1);
-  color: rgb(78, 78, 78);
+  color: #9b0f2d;
   transition: all 0.2s;
 }
 
@@ -135,7 +138,7 @@ header {
 .link_cat:hover {
   cursor: pointer;
   transform: scale(1.1);
-  color: rgb(78, 78, 78);
+  color: #9b0f2d;
   transition: all 0.2s;
 }
 
